@@ -1,0 +1,70 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+head {
+    display: none;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(https://micheleambrosio.github.io/dio-trilha-css-desafio-01/assets/images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+.banner .banner-content {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    color: white;
+}
+
+.banner .logo {
+    background-color: rgb(0, 0, 0, .2);
+    border-radius: 50%;
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    padding: 16px;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.banner p {
+    font-size: 1.25rem;
+    margin: 16px 0 24px;
+}
+
+p{
+    color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
